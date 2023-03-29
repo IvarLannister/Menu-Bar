@@ -41,7 +41,7 @@ li {
 .active,
 .menu-bar ul li:hover {
   background: rgba(145, 147, 128, 0.5);
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .sub-menu-1 {
