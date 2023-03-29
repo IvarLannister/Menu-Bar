@@ -18,7 +18,7 @@ li {
 }
 
 .menu-bar {
-  background: rgba(100, 31, 0, 0.8);
+  background: rgba(179, 85, 34, 0.8);
   text-align: center;
 }
 
@@ -31,4 +31,19 @@ li {
   width: 120px;
   margin: 15px;
   padding: 15px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.active,
+.menu-bar ul li:hover {
+  background: rgba(145, 147, 128, 0.5);
+  border-radius: 3px;
+}
+
+.sub-menu-1 {
+  display: none;
 }
